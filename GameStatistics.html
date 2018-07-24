@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game Statistics</title>
+    <style>
+        .square {
+            display: inline-block;
+            border: 1px solid #f9f9f9;
+            margin: 0;
+        }
+
+        .playerGrid {
+            display: inline-block;
+            margin: 20px;
+        }
+
+        body {
+            background-color: #f44242;
+            color: #f4f4f4;
+            font-family: Helvetica, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #content {
+            width: 800px;
+            margin: 10px auto;
+        }
+
+        #playersStepsList {
+            text-align: left;
+            margin-left: 50px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            border: 1px solid #4CAF50;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #c92442;
+        }
+        tr:nth-child(even) {
+            background-color: #3f48aa;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        button {
+            background-color: #e2e2e0;
+            border: 1px solid #e2e2e0;
+            padding: 4px;
+        }
+        button:hover {
+            background-color: #fcfcfc;
+        }
+        button:active {
+            background-color: #d3d3d3;
+        }
+        .menuItem{
+            height: 100px;
+            width: 200px;
+            box-sizing:border-box;
+            margin: 20px;
+            font-family : 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 17px;
+            font-weight: 10px;
+        }
+        #main{
+            font-size: 50px;
+            margin-bottom: 50px;
+        }
+        #main:hover{
+            text-decoration: underline;
+            cursor: default;
+        }
+    </style>
+    <script language="JavaScript" type="text/javascript" src="js/jquery.js"></script>
+    <script language="JavaScript" type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+    <h1 onclick="loadMunu()" id="main">Battleship Game Statistics</h1>
+    <div id="content">
+        <button class="menuItem" onclick="scoreBoredContent()">View Score Bored</button> <br> <button class="menuItem" onclick="GameInfosContent()">View Played Games</button>
+    </div>
+</body>
+
+</html>

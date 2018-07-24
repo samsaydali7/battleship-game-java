@@ -1,0 +1,38 @@
+.root{
+    
+    
+    -fx-background-color:#004d4d;
+    
+    
+    
+    
+}
+
+.button{
+    
+    
+-fx-background-color: 
+        #7e8181,
+        linear-gradient(#26734d 50%, white 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+    -fx-background-radius: 5;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    
+}
+
+.label{
+    -fx-background-color: 
+        #e5e6e6,
+        linear-gradient(#d6d6d6 50%, white 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+   
+   
+    -fx-text-fill: black;
+    
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    
+}
